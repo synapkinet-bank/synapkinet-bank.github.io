@@ -1,0 +1,9 @@
+@charset "utf-8";
+#error404-content h2, #error404-content h3 { opacity: 0.87; }
+#error404-content p
+{
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+	opacity: 0.87;
+}
+#error404-content img { width: 100%; }

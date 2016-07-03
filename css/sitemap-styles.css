@@ -1,0 +1,20 @@
+@charset "utf-8";
+#sitemap-banner
+{
+	background: url(../img/sitemap-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+#sitemap-content { opacity: 0.87; }
+#sitemap-content ul
+{
+	font-size: 14px;
+	padding: 0 0 0 20px;
+}
+.linkssection { list-style: square; }
+.headerlinkssection { list-style: decimal; }
+#sitemap-content ul li
+{
+	font-family: 'Roboto Regular';
+	text-align: justify;
+}
+#sitemap-content ul li a { color: black; }

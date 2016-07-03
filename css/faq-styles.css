@@ -1,0 +1,16 @@
+@charset "utf-8";
+#faq-banner
+{
+	background: url(../img/faq-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+#faq-content { opacity: 0.87; }
+#faq-content ul
+{
+	font-size: 14px;
+	list-style: decimal;
+	padding: 0 0 0 20px;
+}
+#faq-content ul li, #faq-content ul p { text-align: justify; }
+#faq-content ul li { font-family: 'Roboto Medium'; }
+#faq-content ul p { font-family: 'Roboto Regular'; }

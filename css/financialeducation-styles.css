@@ -1,0 +1,14 @@
+@charset "utf-8";
+#financialeducation-banner
+{
+	background: url(../img/financialeducation-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+#financialeducation-content h2 { opacity: 0.87; }
+#financialeducation-content iframe
+{
+	height: 56.25vw;
+	max-height: 864px;
+	overflow: hidden;
+	width: 100%;
+}

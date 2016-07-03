@@ -1,0 +1,121 @@
+@charset "utf-8";
+#index-content { overflow: hidden; }
+#index-accounts
+{
+	border: gray solid 1px;
+	float: left;
+	height: auto;
+	width: 100%;
+}
+#index-accountsimg
+{
+	float: left;
+	overflow: hidden;
+}
+#index-accountsimg div
+{
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+	padding: 16px;
+	width: 100%;
+}
+#index-accountsimg div h3
+{
+	font-family: 'Roboto Medium';
+	text-align: center;
+}
+#index-accountsimg div input
+{
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+	width: 100%;
+}
+#index-accountstext
+{
+	align-items: center;
+	background: #616161;
+	box-sizing: border-box;
+	color: white;
+	display: flex;
+	float: left;
+	padding: 16px;
+}
+#index-accountstext span p
+{
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+}
+#index-accountstext span ul
+{
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+	padding: 0 16px 0 16px;
+}
+.buttons { color: white; }
+.buttons:hover { background: rgba(204,204,204,0.125); }
+.buttons:active { background: rgba(204,204,204,0.25); }
+#index-sections { float: left; }
+#index-sections article
+{
+	box-sizing: border-box;
+	color: white;
+	float: left;
+	padding: 16px;
+}
+#index-sections article img
+{
+	max-width: 480px;
+	width: 100%;
+}
+#index-sections article h2 { color: white; }
+#index-sections article p
+{
+	font-family: 'Roboto Regular';
+	text-align: justify;
+}
+#index-sections article span a
+{
+	color: white;
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+}
+#index-sectionscreditcards { background: #009688; }
+#index-sectionsdebitcards { background: #3F51B5; }
+#index-sectionsworkatsynapkinet { background: #F44336; }
+@media (max-width: 895px)
+{
+	#index-accountsimg
+	{
+		background: #303F9F;
+		width: 100%;
+	}
+	#index-accountsimg div
+	{
+		background: #303F9F;
+		margin: 0 auto;
+		max-width: 480px;
+	}
+	#index-accountstext { width: 100%; }
+	#index-sections article { width: 100%; }
+}
+@media (min-width: 896px)
+{
+	#index-accounts { display: flex; }
+	#index-accountsimg
+	{
+		background: url(../img/index-accounts.jpg) center center no-repeat;
+		background-size: cover;
+		height: 480px;
+		width: calc(100% / 3 * 2);
+	}
+	#index-accountsimg div
+	{
+		background: #616161;
+		max-width: 320px;
+	}
+	#index-accountstext { width: calc(100% / 3); }
+	#index-sections { display: flex; }
+	#index-sections article { width: calc(100% / 3); }
+}

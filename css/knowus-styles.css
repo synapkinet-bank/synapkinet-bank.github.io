@@ -1,0 +1,13 @@
+@charset "utf-8";
+#knowus-banner
+{
+	background: url(../img/knowus-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+#knowus-content { opacity: 0.87; }
+#knowus-content ul, #knowus-content p
+{
+	font-family: 'Roboto Regular';
+	font-size: 14px;
+}
+#knowus-content p { text-align: justify; }

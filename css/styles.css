@@ -1,0 +1,150 @@
+@charset "utf-8";
+@font-face
+{
+	font-family: 'Roboto Light';
+	src: url(../fonts/roboto-light.ttf);
+}
+@font-face
+{
+	font-family: 'Roboto Medium';
+	src: url(../fonts/roboto-medium.ttf);
+}
+@font-face
+{
+	font-family: 'Roboto Regular';
+	src: url(../fonts/roboto-regular.ttf);
+}
+body
+{
+	margin: 0;
+	min-width: 320px;
+}
+h2
+{
+	font-family: 'Roboto Medium';
+	font-size: 20px;
+}
+h3
+{
+	font-family: 'Roboto Regular';
+	font-size: 16px;
+}
+h2, h3 { font-weight: normal; }
+header { background: #616161; }
+header img
+{
+	min-width: 168px;
+	max-width: 224px;
+	padding: 16px;
+	width: 25%;
+}
+nav
+{
+	-moz-box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.5);
+	background: #616161;
+	box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+nav ul
+{
+	color: white;
+	font-family: 'Roboto Medium';
+	font-size: 14px;
+	list-style: none;
+	margin: 0;
+}
+nav ul li { float: left; }
+nav ul a
+{
+	color: white;
+	text-decoration: none;
+}
+nav ul a:hover li { background: #757575; }
+nav ul a:active li { background: #9E9E9E; }
+.sectionbanner
+{
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Roboto Regular';
+	font-size: 34px;
+	height: 25vw;
+	min-height: 240px;
+	position: relative;
+}
+.sectionbanner span
+{
+    bottom: 0;
+    left: 0;
+	padding: 24px;
+	position: absolute;
+}
+.sectioncontent
+{
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1536px;
+	padding: 16px;
+}
+.buttons
+{	
+	background: transparent;
+	border: none;
+	font-weight: bold;
+	height: 36px;
+	min-width: 88px;
+}
+footer
+{
+	background: #616161;
+	color: white;
+	font-size: 12px;
+}
+#footer-links
+{
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 24px 24px 16px 24px;
+	width: 100%;
+}
+.footer-linksblock { float: left; }
+.footer-linksblock span { font-family: 'Roboto Medium'; }
+.footer-linksblock p { font-family: 'Roboto Regular'; }
+.footer-linksblock p a
+{
+	color: white;
+	text-decoration: none;
+}
+.footer-linksblock p a:hover { text-decoration: underline; }
+#footer-text
+{
+	font-family: 'Roboto Regular';
+	opacity: 0.7;
+	padding: 0 24px 24px 24px;
+}
+@media(max-width: 503px)
+{
+	nav ul { padding: 0; }
+	nav ul li
+	{
+		padding: 16px 24px 16px 24px;
+		width: 100%;
+	}
+}
+@media(min-width: 504px)
+{
+	nav ul { padding: 0 8px 0 8px; }
+	nav ul li {	padding: 16px; }
+}
+@media(max-width: 540px) { .footer-linksblock { width: 100%; } }
+@media(min-width: 541px) { .footer-linksblock { width: calc(100% / 3); } }
+@media(min-width: 504px) and (max-width: 895px)
+{ 
+	nav ul li
+	{
+		box-sizing: border-box;
+		text-align: center;
+		width: 25%;
+	}
+}
+@media(max-width: 895px) { header { text-align: center; } }

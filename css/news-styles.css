@@ -1,0 +1,21 @@
+@charset "utf-8";
+#news-banner
+{
+	background: url(../img/news-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+.news-block
+{
+	border: gray solid 1px;
+	box-sizing: border-box;
+	margin: 8px auto 8px auto;
+	overflow: hidden;
+	padding: 16px;
+	width: 100%;
+}
+.news-block h2, .news-block p { opacity: 0.87; }
+.news-block p
+{
+	font-family: 'Roboto Regular';
+	text-align: justify;
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+#gallery-banner
+{
+	background: url(../img/gallery-banner.jpg) center center no-repeat;
+	background-size: cover;
+}
+#gallery-content { overflow: hidden; }
+#gallery-content img
+{
+	float: left;
+	padding: 16px;
+}
+@media (max-width: 639px) { #gallery-content img { width: calc(100% - 32px); } }
+@media (min-width: 640px) and (max-width: 959px) { #gallery-content img { width: calc(50% - 32px); } }
+@media (min-width: 960px) { #gallery-content img { width: calc((100% / 3) - 32px); } }
