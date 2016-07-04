@@ -14,11 +14,7 @@
 	font-family: 'Roboto Regular';
 	src: url(../fonts/roboto-regular.ttf);
 }
-body
-{
-	margin: 0;
-	min-width: 320px;
-}
+body { margin: 0; }
 h2
 {
 	font-family: 'Roboto Medium';

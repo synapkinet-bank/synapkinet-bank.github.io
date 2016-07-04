@@ -57,11 +57,7 @@
 	font-size: 14px;
 }
 .contactformleft { float: left; }
-.contactformright
-{
-	float: right;
-	min-width: 248px;
-}
+.contactformright { float: right; }
 .contactformright input { width: 100%; }
 .contactformright select { width: 100%; }
 .contactformright textarea
