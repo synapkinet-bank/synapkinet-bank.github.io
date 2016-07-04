@@ -127,13 +127,13 @@ footer
 	nav ul { padding: 0; }
 	nav ul li
 	{
-		padding: 16px 24px 16px 24px;
+		padding: 16px 24px;
 		width: 100%;
 	}
 }
 @media(min-width: 504px)
 {
-	nav ul { padding: 0 8px 0 8px; }
+	nav ul { padding: 0 8px; }
 	nav ul li {	padding: 16px; }
 }
 @media(max-width: 540px) { .footer-linksblock { width: 100%; } }

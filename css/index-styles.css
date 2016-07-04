@@ -97,8 +97,7 @@
 		margin: 0 auto;
 		max-width: 480px;
 	}
-	#index-accountstext { width: 100%; }
-	#index-sections article { width: 100%; }
+	#index-accountstext, #index-sections article { width: 100%; }
 }
 @media (min-width: 896px)
 {
@@ -115,7 +114,6 @@
 		background: #616161;
 		max-width: 320px;
 	}
-	#index-accountstext { width: calc(100% / 3); }
+	#index-accountstext, #index-sections article { width: calc(100% / 3); }
 	#index-sections { display: flex; }
-	#index-sections article { width: calc(100% / 3); }
 }
