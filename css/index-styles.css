@@ -84,6 +84,7 @@
 #index-sectionscreditcards { background: #009688; }
 #index-sectionsdebitcards { background: #3F51B5; }
 #index-sectionsworkatsynapkinet { background: #F44336; }
+@media (min-width: 544px) and (max-width: 895px) { #index-sections article, #index-sections article p { text-align: center;} }
 @media (max-width: 895px)
 {
 	#index-accountsimg
